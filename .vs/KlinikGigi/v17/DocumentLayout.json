@@ -1,0 +1,322 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\sem 3\\pemrog\\KlinikGigi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|e:\\sem 3\\pemrog\\klinikgigi\\klinikgigi\\views\\antrean\\antrean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|solutionrelative:klinikgigi\\views\\antrean\\antrean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|e:\\sem 3\\pemrog\\klinikgigi\\klinikgigi\\views\\antrean\\antrean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|solutionrelative:klinikgigi\\views\\antrean\\antrean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|e:\\sem 3\\pemrog\\klinikgigi\\klinikgigi\\views\\antrean\\tambahantrean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|solutionrelative:klinikgigi\\views\\antrean\\tambahantrean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|e:\\sem 3\\pemrog\\klinikgigi\\klinikgigi\\controllers\\antreancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|solutionrelative:klinikgigi\\controllers\\antreancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|e:\\sem 3\\pemrog\\klinikgigi\\klinikgigi\\models\\antreanmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|solutionrelative:klinikgigi\\models\\antreanmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|e:\\sem 3\\pemrog\\klinikgigi\\klinikgigi\\controllers\\daftarpasiencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|solutionrelative:klinikgigi\\controllers\\daftarpasiencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|e:\\sem 3\\pemrog\\klinikgigi\\klinikgigi\\models\\daftardoktermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|solutionrelative:klinikgigi\\models\\daftardoktermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|e:\\sem 3\\pemrog\\klinikgigi\\klinikgigi\\models\\daftarpasienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|solutionrelative:klinikgigi\\models\\daftarpasienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|e:\\sem 3\\pemrog\\klinikgigi\\klinikgigi\\models\\homemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|solutionrelative:klinikgigi\\models\\homemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|e:\\sem 3\\pemrog\\klinikgigi\\klinikgigi\\models\\layananmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|solutionrelative:klinikgigi\\models\\layananmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|e:\\sem 3\\pemrog\\klinikgigi\\klinikgigi\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|solutionrelative:klinikgigi\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|e:\\sem 3\\pemrog\\klinikgigi\\klinikgigi\\models\\rekammedismodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|solutionrelative:klinikgigi\\models\\rekammedismodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|e:\\sem 3\\pemrog\\klinikgigi\\klinikgigi\\models\\riwayatmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|solutionrelative:klinikgigi\\models\\riwayatmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|e:\\sem 3\\pemrog\\klinikgigi\\klinikgigi\\models\\tambahpasienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|solutionrelative:klinikgigi\\models\\tambahpasienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|e:\\sem 3\\pemrog\\klinikgigi\\klinikgigi\\views\\antrean\\tambahantrean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|solutionrelative:klinikgigi\\views\\antrean\\tambahantrean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|e:\\sem 3\\pemrog\\klinikgigi\\klinikgigi\\views\\pasien\\tambahpasien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|solutionrelative:klinikgigi\\views\\pasien\\tambahpasien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|e:\\sem 3\\pemrog\\klinikgigi\\klinikgigi\\views\\antrean\\selectdokter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|solutionrelative:klinikgigi\\views\\antrean\\selectdokter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|e:\\sem 3\\pemrog\\klinikgigi\\klinikgigi\\views\\antrean\\selectpasien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1BABA0F8-EEC9-43AB-A5CE-35B339100228}|KlinikGigi\\KlinikGigi.csproj|solutionrelative:klinikgigi\\views\\antrean\\selectpasien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "antrean.cs",
+              "DocumentMoniker": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Views\\antrean\\antrean.cs",
+              "RelativeDocumentMoniker": "KlinikGigi\\Views\\antrean\\antrean.cs",
+              "ToolTip": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Views\\antrean\\antrean.cs",
+              "RelativeToolTip": "KlinikGigi\\Views\\antrean\\antrean.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwBwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:31:58.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "antrean.cs [Design]",
+              "DocumentMoniker": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Views\\antrean\\antrean.cs",
+              "RelativeDocumentMoniker": "KlinikGigi\\Views\\antrean\\antrean.cs",
+              "ToolTip": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Views\\antrean\\antrean.cs [Design]",
+              "RelativeToolTip": "KlinikGigi\\Views\\antrean\\antrean.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:31:57.022Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "daftarDokterModel.cs",
+              "DocumentMoniker": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Models\\daftarDokterModel.cs",
+              "RelativeDocumentMoniker": "KlinikGigi\\Models\\daftarDokterModel.cs",
+              "ToolTip": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Models\\daftarDokterModel.cs",
+              "RelativeToolTip": "KlinikGigi\\Models\\daftarDokterModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:27:48.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "antreanController.cs",
+              "DocumentMoniker": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Controllers\\antreanController.cs",
+              "RelativeDocumentMoniker": "KlinikGigi\\Controllers\\antreanController.cs",
+              "ToolTip": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Controllers\\antreanController.cs",
+              "RelativeToolTip": "KlinikGigi\\Controllers\\antreanController.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAowEIAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T11:37:12.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "antreanModel.cs",
+              "DocumentMoniker": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Models\\antreanModel.cs",
+              "RelativeDocumentMoniker": "KlinikGigi\\Models\\antreanModel.cs",
+              "ToolTip": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Models\\antreanModel.cs",
+              "RelativeToolTip": "KlinikGigi\\Models\\antreanModel.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAADwvw8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T11:43:14.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "tambahAntrean.cs [Design]",
+              "DocumentMoniker": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Views\\antrean\\tambahAntrean.cs",
+              "RelativeDocumentMoniker": "KlinikGigi\\Views\\antrean\\tambahAntrean.cs",
+              "ToolTip": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Views\\antrean\\tambahAntrean.cs [Design]",
+              "RelativeToolTip": "KlinikGigi\\Views\\antrean\\tambahAntrean.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T11:13:24.777Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "daftarPasienController.cs",
+              "DocumentMoniker": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Controllers\\daftarPasienController.cs",
+              "RelativeDocumentMoniker": "KlinikGigi\\Controllers\\daftarPasienController.cs",
+              "ToolTip": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Controllers\\daftarPasienController.cs",
+              "RelativeToolTip": "KlinikGigi\\Controllers\\daftarPasienController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:28:00.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "daftarPasienModel.cs",
+              "DocumentMoniker": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Models\\daftarPasienModel.cs",
+              "RelativeDocumentMoniker": "KlinikGigi\\Models\\daftarPasienModel.cs",
+              "ToolTip": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Models\\daftarPasienModel.cs",
+              "RelativeToolTip": "KlinikGigi\\Models\\daftarPasienModel.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:27:28.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "homeModel.cs",
+              "DocumentMoniker": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Models\\homeModel.cs",
+              "RelativeDocumentMoniker": "KlinikGigi\\Models\\homeModel.cs",
+              "ToolTip": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Models\\homeModel.cs",
+              "RelativeToolTip": "KlinikGigi\\Models\\homeModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:27:27.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "layananModel.cs",
+              "DocumentMoniker": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Models\\layananModel.cs",
+              "RelativeDocumentMoniker": "KlinikGigi\\Models\\layananModel.cs",
+              "ToolTip": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Models\\layananModel.cs",
+              "RelativeToolTip": "KlinikGigi\\Models\\layananModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:27:25.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "loginModel.cs",
+              "DocumentMoniker": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Models\\loginModel.cs",
+              "RelativeDocumentMoniker": "KlinikGigi\\Models\\loginModel.cs",
+              "ToolTip": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Models\\loginModel.cs",
+              "RelativeToolTip": "KlinikGigi\\Models\\loginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:27:23.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "rekamMedisModel.cs",
+              "DocumentMoniker": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Models\\rekamMedisModel.cs",
+              "RelativeDocumentMoniker": "KlinikGigi\\Models\\rekamMedisModel.cs",
+              "ToolTip": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Models\\rekamMedisModel.cs",
+              "RelativeToolTip": "KlinikGigi\\Models\\rekamMedisModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:27:19.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "riwayatModel.cs",
+              "DocumentMoniker": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Models\\riwayatModel.cs",
+              "RelativeDocumentMoniker": "KlinikGigi\\Models\\riwayatModel.cs",
+              "ToolTip": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Models\\riwayatModel.cs",
+              "RelativeToolTip": "KlinikGigi\\Models\\riwayatModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:27:19.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "tambahPasienModel.cs",
+              "DocumentMoniker": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Models\\tambahPasienModel.cs",
+              "RelativeDocumentMoniker": "KlinikGigi\\Models\\tambahPasienModel.cs",
+              "ToolTip": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Models\\tambahPasienModel.cs",
+              "RelativeToolTip": "KlinikGigi\\Models\\tambahPasienModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:27:16.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "tambahAntrean.cs",
+              "DocumentMoniker": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Views\\antrean\\tambahAntrean.cs",
+              "RelativeDocumentMoniker": "KlinikGigi\\Views\\antrean\\tambahAntrean.cs",
+              "ToolTip": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Views\\antrean\\tambahAntrean.cs",
+              "RelativeToolTip": "KlinikGigi\\Views\\antrean\\tambahAntrean.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAwBsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T18:57:04.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "tambahPasien.cs",
+              "DocumentMoniker": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Views\\pasien\\tambahPasien.cs",
+              "RelativeDocumentMoniker": "KlinikGigi\\Views\\pasien\\tambahPasien.cs",
+              "ToolTip": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Views\\pasien\\tambahPasien.cs",
+              "RelativeToolTip": "KlinikGigi\\Views\\pasien\\tambahPasien.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAiwDgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T11:36:53.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "selectPasien.cs [Design]",
+              "DocumentMoniker": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Views\\antrean\\selectPasien.cs",
+              "RelativeDocumentMoniker": "KlinikGigi\\Views\\antrean\\selectPasien.cs",
+              "ToolTip": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Views\\antrean\\selectPasien.cs [Design]",
+              "RelativeToolTip": "KlinikGigi\\Views\\antrean\\selectPasien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T11:33:55.608Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "selectDokter.cs [Design]",
+              "DocumentMoniker": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Views\\antrean\\selectDokter.cs",
+              "RelativeDocumentMoniker": "KlinikGigi\\Views\\antrean\\selectDokter.cs",
+              "ToolTip": "E:\\sem 3\\pemrog\\KlinikGigi\\KlinikGigi\\Views\\antrean\\selectDokter.cs [Design]",
+              "RelativeToolTip": "KlinikGigi\\Views\\antrean\\selectDokter.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T11:33:46.998Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

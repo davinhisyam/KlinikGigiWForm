@@ -1,0 +1,7 @@
+-expired pasien
+-status pembayaran, tampilan antrian berdasarkan hari dan tanggal
+-riwayat
+-jalur pembayaran
+-
+
+

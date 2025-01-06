@@ -1,0 +1,45 @@
+BARU
+RL: resepsionis (tambah pasien)
+buat rekam medis baru
+masuk ke antrian
+ke dokter
+pembayaran
+lunas, dan riwayat.
+
+LAMA
+resepsinis (read pasien)
+ambil rekam medis
+masuk ke antrian
+ke dokter
+pembayaran
+lunas riwayat.
+
+pasien create update delete
+rekam medis, (auto create from pasien), update, delete
+
+
+TODO BESOK (10 jam)
+!!!!!ANTRIAN CRUD(30menit)
+- SELCET id pasien
+- SELECT id DOKTER
+- detail DOKTER read only
+	- nama dokter
+- detail PASIEN read only
+	- nama
+	- umur
+	- nik
+	- alamat
+	- no rekam medis
+- status antrian
+- create_at
+tambah masuk ke antrian.
+
+HAPUS BY ID (10 menit)
+EDIT BY ID (20 menit)
+- id pasien.
+- id dokter
+- status antrian
+
+(3 jam)
+-ketika status lunas. antrian ke Autodelete, automasuk riwayat
+
