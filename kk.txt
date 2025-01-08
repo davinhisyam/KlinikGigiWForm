@@ -43,3 +43,9 @@ EDIT BY ID (20 menit)
 (3 jam)
 -ketika status lunas. antrian ke Autodelete, automasuk riwayat
 
+
+
+1. klik atambah pasien
+2. addpasien klik
+3. klik.addpasien
+4, addpasien in daftarPasienModel

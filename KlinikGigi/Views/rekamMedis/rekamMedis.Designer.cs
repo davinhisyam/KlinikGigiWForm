@@ -32,8 +32,6 @@
             this.txtBoxSearch = new System.Windows.Forms.TextBox();
             this.btnBack = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnEdit = new System.Windows.Forms.Button();
-            this.btnTambah = new System.Windows.Forms.Button();
             this.btnHapus = new System.Windows.Forms.Button();
             this.lvwRekamMedis = new System.Windows.Forms.ListView();
             this.SuspendLayout();
@@ -79,32 +77,12 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Rekam Medis";
             // 
-            // btnEdit
-            // 
-            this.btnEdit.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnEdit.Location = new System.Drawing.Point(326, 448);
-            this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(114, 36);
-            this.btnEdit.TabIndex = 6;
-            this.btnEdit.Text = "Edit";
-            this.btnEdit.UseVisualStyleBackColor = true;
-            // 
-            // btnTambah
-            // 
-            this.btnTambah.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnTambah.Location = new System.Drawing.Point(627, 448);
-            this.btnTambah.Name = "btnTambah";
-            this.btnTambah.Size = new System.Drawing.Size(114, 36);
-            this.btnTambah.TabIndex = 7;
-            this.btnTambah.Text = "Tambah";
-            this.btnTambah.UseVisualStyleBackColor = true;
-            // 
             // btnHapus
             // 
             this.btnHapus.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnHapus.Location = new System.Drawing.Point(42, 448);
             this.btnHapus.Name = "btnHapus";
-            this.btnHapus.Size = new System.Drawing.Size(114, 36);
+            this.btnHapus.Size = new System.Drawing.Size(698, 36);
             this.btnHapus.TabIndex = 8;
             this.btnHapus.Text = "Hapus";
             this.btnHapus.UseVisualStyleBackColor = true;
@@ -126,8 +104,6 @@
             this.ClientSize = new System.Drawing.Size(784, 507);
             this.Controls.Add(this.lvwRekamMedis);
             this.Controls.Add(this.btnHapus);
-            this.Controls.Add(this.btnTambah);
-            this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.txtBoxSearch);
@@ -146,8 +122,6 @@
         private System.Windows.Forms.TextBox txtBoxSearch;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnEdit;
-        private System.Windows.Forms.Button btnTambah;
         private System.Windows.Forms.Button btnHapus;
         public System.Windows.Forms.ListView lvwRekamMedis;
     }

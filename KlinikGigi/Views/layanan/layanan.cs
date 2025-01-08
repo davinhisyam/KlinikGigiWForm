@@ -22,12 +22,12 @@ namespace KlinikGigi.Views.layanan
         private void SetupListView()
         {
             // Configure columns for the ListView
-            listView1.Columns.Add("ID Layanan", 100);
-            listView1.Columns.Add("Nama Layanan", 220);
-            listView1.Columns.Add("Harga", 200);
+            lvwLayanan.Columns.Add("ID Layanan", 100);
+            lvwLayanan.Columns.Add("Nama Layanan", 220);
+            lvwLayanan.Columns.Add("Harga", 200);
 
-            listView1.View = View.Details;
-            listView1.FullRowSelect = true;
+            lvwLayanan.View = View.Details;
+            lvwLayanan.FullRowSelect = true;
         }
 
         public void ShowDataInListView()
@@ -54,10 +54,10 @@ namespace KlinikGigi.Views.layanan
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            if (listView1.SelectedItems.Count > 0)
+            if (lvwLayanan.SelectedItems.Count > 0)
             {
                 // Ambil ID layanan atau data lain dari kolom yang dipilih
-                int idLayanan = int.Parse(listView1.SelectedItems[0].SubItems[0].Text);
+                int idLayanan = int.Parse(lvwLayanan.SelectedItems[0].SubItems[0].Text);
                 controller.OpenDeleteLayanan(idLayanan);
 
                 // Buka form baru untuk konfirmasi atau penghapusan
@@ -72,11 +72,11 @@ namespace KlinikGigi.Views.layanan
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            if(listView1.SelectedItems.Count > 0)
+            if(lvwLayanan.SelectedItems.Count > 0)
             {
-                int idLayanan = int.Parse(listView1.SelectedItems[0].SubItems[0].Text);
-                string namaLayanan = listView1.SelectedItems[0].SubItems[1].Text;
-                int harga = int.Parse(listView1.SelectedItems[0].SubItems[2].Text, System.Globalization.NumberStyles.Currency);
+                int idLayanan = int.Parse(lvwLayanan.SelectedItems[0].SubItems[0].Text);
+                string namaLayanan = lvwLayanan.SelectedItems[0].SubItems[1].Text;
+                int harga = int.Parse(lvwLayanan.SelectedItems[0].SubItems[2].Text, System.Globalization.NumberStyles.Currency);
 
 
                 controller.OpenUpdateLayanan(idLayanan, namaLayanan, harga);

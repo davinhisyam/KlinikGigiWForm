@@ -63,3 +63,5 @@ E:\sem 3\pemrog\KlinikGigi\KlinikGigi\obj\Debug\KlinikGigi.Views.antrean.tambahA
 E:\sem 3\pemrog\KlinikGigi\KlinikGigi\obj\Debug\KlinikGigi.Views.antrean.antrean.resources
 E:\sem 3\pemrog\KlinikGigi\KlinikGigi\obj\Debug\KlinikGigi.Views.antrean.selectPasien.resources
 E:\sem 3\pemrog\KlinikGigi\KlinikGigi\obj\Debug\KlinikGigi.Views.antrean.selectDokter.resources
+E:\sem 3\pemrog\KlinikGigi\KlinikGigi\obj\Debug\KlinikGigi.Views.pembayaran.selectTindakan.resources
+E:\sem 3\pemrog\KlinikGigi\KlinikGigi\obj\Debug\KlinikGigi.Views.antrean.deleteAntrean.resources

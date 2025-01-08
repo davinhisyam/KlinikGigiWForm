@@ -46,8 +46,11 @@ namespace KlinikGigi
             listViewJenisTindakan.Columns.Clear();
             listViewJenisTindakan.Columns.Add("Nama Tindakan", 310);
             listViewJenisTindakan.FullRowSelect = true;
-           
 
+            rtbDate.Text = DateTime.Now.ToString();
+            rtbDate.SelectAll(); // Pilih seluruh teks dalam RichTextBox
+            rtbDate.SelectionAlignment = HorizontalAlignment.Center; // Atur teks ke tengah
+            rtbDate.DeselectAll(); // Hapus seleksi teks
         }
 
 

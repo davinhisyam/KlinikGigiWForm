@@ -136,8 +136,8 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.RichTextBox richTextBoxDokter;
+        public System.Windows.Forms.RichTextBox richTextBox1;
+        public System.Windows.Forms.RichTextBox richTextBoxDokter;
         private System.Windows.Forms.Label NamaPasien;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnSimpan;

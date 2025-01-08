@@ -1,5 +1,6 @@
 ﻿using KlinikGigi.Models;
 using KlinikGigi.Views.antrean;
+using KlinikGigi.Views.layanan;
 using System;
 using System.Data;
 using System.Windows.Forms;
@@ -65,6 +66,7 @@ namespace KlinikGigi.Controllers
             {
                 // Panggil fungsi Add dari model
                 string result = model.AddAntreanData(idPasien, idDokter);
+                ShowData();
 
                 // Tampilkan pesan sukses
                 MessageBox.Show(result, "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -75,26 +77,62 @@ namespace KlinikGigi.Controllers
                 throw new Exception("Gagal menambahkan antrean: " + ex.Message);
             }
         }
-        
+
+        public void OpenDeleteAntrean(int idAntrean)
+        {
+            try
+            {
+                deleteAntrean DeleteAntrean = new deleteAntrean(view, idAntrean);
+                DeleteAntrean.ShowDialog(); // Menampilkan form tambahLayanan
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Terjadi kesalahan: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+        public void DeleteAntrean(int idAntrean)
+        {
+            try
+            {
+                // Panggil fungsi Add dari model
+                string result = model.DelAntreanData(idAntrean);
+
+                // Tampilkan pesan sukses
+                MessageBox.Show(result, "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                // Refresh ListView setelah menambahkan data
+                ShowData();
+            }
+            catch (Exception ex)
+            {
+                // Tampilkan pesan error
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
         public void ShowData()
         {
             try
             {
                 // Get data from the model
-                DataTable data = model.GetPasien();
+                DataTable data = model.GetPasDok();
 
                 // Clear the ListView before adding new data
 
-                view.listView2.Items.Clear(); // ini yang saya maksud
+                view.lvwDaftarAntrean.Items.Clear(); // ini yang saya maksud
 
                 // Populate the ListView with data
                 foreach (DataRow row in data.Rows)
                 {
-                    ListViewItem item = new ListViewItem(row["id"].ToString());
-                    item.SubItems.Add(row["pasien_id"].ToString());
-                    item.SubItems.Add(row["nama"].ToString());
+                    ListViewItem item = new ListViewItem(row["antrean_id"].ToString());
+                    item.SubItems.Add(row["pasien_nama"].ToString());
+                    item.SubItems.Add(row["dokter_nama"].ToString());
+                    item.SubItems.Add(row["date"].ToString());
+                    item.SubItems.Add(row["status"].ToString());
 
-                    view.listView2.Items.Add(item); // ini yang saya maksud
+                    
+                    view.lvwDaftarAntrean.Items.Add(item); // ini yang saya maksud
+
                 }
             }
             catch (Exception ex)
@@ -102,6 +140,11 @@ namespace KlinikGigi.Controllers
                 // Show an error message if something goes wrong
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        public void AntreanSelesai(int id)
+        {
+            model.AntreanSelesai(id);
         }
     }
 }

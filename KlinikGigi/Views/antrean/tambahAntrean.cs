@@ -9,6 +9,8 @@ namespace KlinikGigi.Views.antrean
     public partial class tambahAntrean : Form
     {
         private antreanController controller;
+        private int idPasien;
+        private int idDokter;
         public tambahAntrean(antrean view)
         {
             InitializeComponent();
@@ -20,17 +22,19 @@ namespace KlinikGigi.Views.antrean
             controller.OpenSelectPasien(this);
         }
 
-        public void showPasien(int id, string namaPasien)
+        public void showPasien(int idPasien, string namaPasien)
         {
-            richTextBox1.Text = id.ToString();
+            this.idPasien = idPasien;
+            richTextBox1.Text = namaPasien.ToString();
             richTextBox1.BackColor = Color.FromArgb(255, 0, 255, 0); // Warna hijau terang penuh (tanpa transparansi)
             richTextBox1.Refresh();
             CenterText(richTextBox1);
         }
 
-        public void showDokter(int id, string namaDokter)
+        public void showDokter(int idDokter, string namaDokter)
         {
-            richTextBoxDokter.Text = id.ToString();
+            this.idDokter = idDokter;
+            richTextBoxDokter.Text = namaDokter.ToString();
             richTextBoxDokter.BackColor = Color.FromArgb(255, 0, 255, 0); // Warna hijau terang penuh (tanpa transparansi)
             richTextBoxDokter.Refresh();
             CenterText(richTextBoxDokter);
@@ -48,14 +52,17 @@ namespace KlinikGigi.Views.antrean
             this.Close();
         }
 
+
+
         private void button1_Click(object sender, EventArgs e)
         {
             // INi dion ganti
             // Validasi dan parsing input untuk idPasien
-            if (!int.TryParse(richTextBox1.Text.Trim(), out int idPasien))
+            
+            /*if (!int.Parse(this.idPasien))
             {
                 MessageBox.Show("ID Pasien tidak valid.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
+                return;  
             }
 
             // Validasi dan parsing input untuk idDokter
@@ -63,7 +70,7 @@ namespace KlinikGigi.Views.antrean
             {
                 MessageBox.Show("ID Dokter tidak valid.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
-            }
+            }*/
 
             // Panggil method AddDataAntrean pada controller
             try

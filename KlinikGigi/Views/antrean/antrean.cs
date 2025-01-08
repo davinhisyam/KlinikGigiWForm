@@ -18,12 +18,14 @@ namespace KlinikGigi.Views.antrean
         private void SetupListView()
         {
             // Configure columns for the ListView
-            listView2.Columns.Add("NO", 50);
-            listView2.Columns.Add("Nama Pasien", 100);
-            listView2.Columns.Add("Nama Dokter", 100);
+            lvwDaftarAntrean.Columns.Add("No Antrian", 100);
+            lvwDaftarAntrean.Columns.Add("Nama Pasien", 200);
+            lvwDaftarAntrean.Columns.Add("Nama Dokter", 100);
+            lvwDaftarAntrean.Columns.Add("Tanggal", 100);
+            lvwDaftarAntrean.Columns.Add("Status", 100);
 
-            listView2.View = View.Details;
-            listView2.FullRowSelect = true;
+            lvwDaftarAntrean.View = View.Details;
+            lvwDaftarAntrean.FullRowSelect = true;
         }
 
         public void ShowDataInListView()
@@ -31,16 +33,10 @@ namespace KlinikGigi.Views.antrean
             controller.ShowData();
         }
 
-        private void layanan_Load(object sender, EventArgs e)
-        {
-            // Setup ListView and load data when the form loads
-            SetupListView();
-            ShowDataInListView();
-        }
         private void antrean_Load(object sender, EventArgs e)
         {
-            SetupListView();
             ShowDataInListView();
+            SetupListView();
         }
 
         private void btnTambah_Click(object sender, EventArgs e)
@@ -51,6 +47,24 @@ namespace KlinikGigi.Views.antrean
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnDelAntrean_Click(object sender, EventArgs e)
+        {
+            if (lvwDaftarAntrean.SelectedItems.Count > 0)
+            {
+                // Ambil ID layanan atau data lain dari kolom yang dipilih
+                int idAntrean = int.Parse(lvwDaftarAntrean.SelectedItems[0].SubItems[0].Text);
+                controller.OpenDeleteAntrean(idAntrean);
+
+                // Buka form baru untuk konfirmasi atau penghapusan
+                //HapusLayanan hapusLayananForm = new HapusLayanan(layananId);
+                // hapusLayananForm.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Pilih layanan yang ingin dihapus.", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
     }
 }

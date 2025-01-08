@@ -1,17 +1,20 @@
-﻿using MySql.Data.MySqlClient;
-using System;
-
+﻿using System;
+using System.Collections.Generic;
 using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using MySqlConnector;
 
 namespace KlinikGigi.Models
 {
-    internal class riwayatModel
+    public class selectTindakanModel
     {
         private string connectionString = "Server=127.0.0.1;Database=klinikGigi;User Id=root;Password=1234;";
 
-        public DataTable GetRiwayatData()
+        public DataTable GetLayananData()
         {
-            string query = "SELECT p.pembayaran_id, p.total_biaya, p.tanggal_pembayaran, p.metode_pembayaran, pa.nama AS nama_pasien FROM Pembayaran AS p JOIN Pasien AS pa ON pa.pasien_id = p.pasien_id";
+            string query = "SELECT layanan_id, nama_layanan, harga FROM Layanan";
             DataTable dataTable = new DataTable();
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))

@@ -26,7 +26,8 @@ namespace KlinikGigi
             // Configure columns for the ListView
             lvwRekamMedis.Columns.Add("NO", 50);
             lvwRekamMedis.Columns.Add("ID Pasien", 50);
-            lvwRekamMedis.Columns.Add("Nama Pasien", 300);
+            lvwRekamMedis.Columns.Add("Nama Pasien", 100);
+            lvwRekamMedis.Columns.Add("Tindakan", 100);
 
             lvwRekamMedis.View = View.Details;
             lvwRekamMedis.FullRowSelect = true;

@@ -31,7 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnBack = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.lvwLayanan = new System.Windows.Forms.ListView();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
@@ -59,7 +59,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.listView1);
+            this.groupBox1.Controls.Add(this.lvwLayanan);
             this.groupBox1.Location = new System.Drawing.Point(12, 64);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(776, 374);
@@ -67,14 +67,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "-";
             // 
-            // listView1
+            // lvwLayanan
             // 
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(10, 21);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(760, 347);
-            this.listView1.TabIndex = 0;
-            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.lvwLayanan.HideSelection = false;
+            this.lvwLayanan.Location = new System.Drawing.Point(10, 21);
+            this.lvwLayanan.Name = "lvwLayanan";
+            this.lvwLayanan.Size = new System.Drawing.Size(760, 347);
+            this.lvwLayanan.TabIndex = 0;
+            this.lvwLayanan.UseCompatibleStateImageBehavior = false;
             // 
             // btnAdd
             // 
@@ -130,7 +130,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.GroupBox groupBox1;
-        public System.Windows.Forms.ListView listView1;
+        public System.Windows.Forms.ListView lvwLayanan;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnDelete;

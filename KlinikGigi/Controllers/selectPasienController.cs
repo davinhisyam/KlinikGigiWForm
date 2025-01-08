@@ -72,10 +72,11 @@ namespace KlinikGigi.Controllers
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+        
 
-     //   public void openTambahAntrean(antrean view, int idPasien)
-     //   {
-     //       tambahAntrean.showPasien(idPasien);
-     //   }
+        //   public void openTambahAntrean(antrean view, int idPasien)
+        //   {
+        //       tambahAntrean.showPasien(idPasien);
+        //   }
     }
 }

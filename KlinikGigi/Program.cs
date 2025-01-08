@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using KlinikGigi;
+using KlinikGigi.Views.pembayaran;
 
 
 
@@ -19,7 +20,7 @@ namespace KlinikGigi
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new home());
+            Application.Run(new login());
         }
     }
 }

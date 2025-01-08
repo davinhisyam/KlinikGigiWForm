@@ -32,9 +32,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnBack = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.lvwRiwayat = new System.Windows.Forms.ListView();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,18 +73,19 @@
             this.button1.Text = "Cari";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnBack
             // 
-            this.button2.Location = new System.Drawing.Point(686, 469);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Back";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnBack.Location = new System.Drawing.Point(686, 469);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(75, 23);
+            this.btnBack.TabIndex = 4;
+            this.btnBack.Text = "Back";
+            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.listView1);
+            this.groupBox1.Controls.Add(this.lvwRiwayat);
             this.groupBox1.Location = new System.Drawing.Point(46, 113);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(715, 350);
@@ -92,14 +93,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "-";
             // 
-            // listView1
+            // lvwRiwayat
             // 
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(6, 15);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(709, 329);
-            this.listView1.TabIndex = 0;
-            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.lvwRiwayat.HideSelection = false;
+            this.lvwRiwayat.Location = new System.Drawing.Point(6, 15);
+            this.lvwRiwayat.Name = "lvwRiwayat";
+            this.lvwRiwayat.Size = new System.Drawing.Size(709, 329);
+            this.lvwRiwayat.TabIndex = 0;
+            this.lvwRiwayat.UseCompatibleStateImageBehavior = false;
             // 
             // riwayat
             // 
@@ -107,7 +108,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 504);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnBack);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -126,8 +127,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ListView listView1;
+        public System.Windows.Forms.ListView lvwRiwayat;
     }
 }

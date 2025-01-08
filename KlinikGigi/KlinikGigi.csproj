@@ -110,6 +110,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\antreanController.cs" />
+    <Compile Include="Controllers\pembayaranController.cs" />
     <Compile Include="Controllers\selectDokterController.cs" />
     <Compile Include="Controllers\selectPasienController.cs" />
     <Compile Include="Controllers\daftarPasienController.cs" />
@@ -118,6 +119,7 @@
     <Compile Include="Controllers\loginController.cs" />
     <Compile Include="Controllers\rekamMedisController.cs" />
     <Compile Include="Controllers\riwayatController.cs" />
+    <Compile Include="Controllers\selectTindakanController.cs" />
     <Compile Include="Controllers\tambahPasienController.cs" />
     <Compile Include="Models\antreanModel.cs" />
     <Compile Include="Models\daftarDokterModel.cs" />
@@ -125,14 +127,22 @@
     <Compile Include="Models\homeModel.cs" />
     <Compile Include="Models\layananModel.cs" />
     <Compile Include="Models\loginModel.cs" />
+    <Compile Include="Models\pembayaranModel.cs" />
     <Compile Include="Models\rekamMedisModel.cs" />
     <Compile Include="Models\riwayatModel.cs" />
+    <Compile Include="Models\selectTindakanModel.cs" />
     <Compile Include="Models\tambahPasienModel.cs" />
     <Compile Include="Views\antrean\antrean.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Views\antrean\antrean.Designer.cs">
       <DependentUpon>antrean.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\antrean\deleteAntrean.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\antrean\deleteAntrean.Designer.cs">
+      <DependentUpon>deleteAntrean.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\antrean\selectDokter.cs">
       <SubType>Form</SubType>
@@ -200,14 +210,20 @@
     <Compile Include="Views\pasien\hapusPasien.Designer.cs">
       <DependentUpon>hapusPasien.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\pembayaran.cs">
+    <Compile Include="Views\pembayaran\pembayaran.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\pembayaran.Designer.cs">
+    <Compile Include="Views\pembayaran\pembayaran.Designer.cs">
       <DependentUpon>pembayaran.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\pembayaran\selectTindakan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\pembayaran\selectTindakan.Designer.cs">
+      <DependentUpon>selectTindakan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\rekamMedis\rekamMedis.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -234,6 +250,9 @@
     </Compile>
     <EmbeddedResource Include="Views\antrean\antrean.resx">
       <DependentUpon>antrean.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\antrean\deleteAntrean.resx">
+      <DependentUpon>deleteAntrean.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\antrean\selectDokter.resx">
       <DependentUpon>selectDokter.cs</DependentUpon>
@@ -268,7 +287,7 @@
     <EmbeddedResource Include="Views\pasien\hapusPasien.resx">
       <DependentUpon>hapusPasien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\pembayaran.resx">
+    <EmbeddedResource Include="Views\pembayaran\pembayaran.resx">
       <DependentUpon>pembayaran.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -281,6 +300,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Views\pembayaran\selectTindakan.resx">
+      <DependentUpon>selectTindakan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\rekamMedis\rekamMedis.resx">
       <DependentUpon>rekamMedis.cs</DependentUpon>
     </EmbeddedResource>

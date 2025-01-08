@@ -29,10 +29,8 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.listView1 = new System.Windows.Forms.ListView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.listView2 = new System.Windows.Forms.ListView();
+            this.lvwDaftarAntrean = new System.Windows.Forms.ListView();
             this.button1 = new System.Windows.Forms.Button();
             this.btnDelAntrean = new System.Windows.Forms.Button();
             this.btnTambah = new System.Windows.Forms.Button();
@@ -48,27 +46,9 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Daftar Antrean";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(594, 43);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 16);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Hari/Tanggal";
-            // 
-            // listView1
-            // 
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(597, 62);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(121, 26);
-            this.listView1.TabIndex = 2;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.listView2);
+            this.groupBox1.Controls.Add(this.lvwDaftarAntrean);
             this.groupBox1.Location = new System.Drawing.Point(5, 94);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(713, 351);
@@ -76,14 +56,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "-";
             // 
-            // listView2
+            // lvwDaftarAntrean
             // 
-            this.listView2.HideSelection = false;
-            this.listView2.Location = new System.Drawing.Point(7, 21);
-            this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(700, 324);
-            this.listView2.TabIndex = 0;
-            this.listView2.UseCompatibleStateImageBehavior = false;
+            this.lvwDaftarAntrean.HideSelection = false;
+            this.lvwDaftarAntrean.Location = new System.Drawing.Point(7, 21);
+            this.lvwDaftarAntrean.Name = "lvwDaftarAntrean";
+            this.lvwDaftarAntrean.Size = new System.Drawing.Size(700, 324);
+            this.lvwDaftarAntrean.TabIndex = 0;
+            this.lvwDaftarAntrean.UseCompatibleStateImageBehavior = false;
             // 
             // button1
             // 
@@ -103,6 +83,7 @@
             this.btnDelAntrean.TabIndex = 6;
             this.btnDelAntrean.Text = "Delete";
             this.btnDelAntrean.UseVisualStyleBackColor = true;
+            this.btnDelAntrean.Click += new System.EventHandler(this.btnDelAntrean_Click);
             // 
             // btnTambah
             // 
@@ -123,8 +104,6 @@
             this.Controls.Add(this.btnDelAntrean);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.listView1);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "antrean";
             this.Text = "antrean";
@@ -137,10 +116,8 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.GroupBox groupBox1;
-        public System.Windows.Forms.ListView listView2;
+        public System.Windows.Forms.ListView lvwDaftarAntrean;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnDelAntrean;
         private System.Windows.Forms.Button btnTambah;

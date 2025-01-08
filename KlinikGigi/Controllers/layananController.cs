@@ -27,7 +27,7 @@ namespace KlinikGigi.Controllers
 
                 // Clear the ListView before adding new data
 
-                view.listView1.Items.Clear(); // ini yang saya maksud
+                view.lvwLayanan.Items.Clear(); // ini yang saya maksud
 
                 // Populate the ListView with data
                 foreach (DataRow row in data.Rows)
@@ -44,7 +44,7 @@ namespace KlinikGigi.Controllers
                         item.SubItems.Add("Invalid Harga");
                     }
 
-                    view.listView1.Items.Add(item); // ini yang saya maksud
+                    view.lvwLayanan.Items.Add(item); // ini yang saya maksud
                 }
             }
             catch (Exception ex)

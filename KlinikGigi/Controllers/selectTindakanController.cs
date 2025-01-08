@@ -1,4 +1,6 @@
 ﻿using KlinikGigi.Models;
+using KlinikGigi.Views.layanan;
+using KlinikGigi.Views.pembayaran;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -9,15 +11,15 @@ using System.Windows.Forms;
 
 namespace KlinikGigi.Controllers
 {
-    internal class riwayatController
+    public class selectTindakanController
     {
-        private riwayat view;
-        private riwayatModel model;
+        private selectTindakanModel model;
+        private selectTindakan view;
 
-        public riwayatController(riwayat view)
+        public selectTindakanController(selectTindakan view)
         {
-            this.view = view;
-            this.model = new riwayatModel();
+            this.model = new selectTindakanModel(); // Instantiate the model
+            this.view = view; // Reference to the view (form)
         }
 
         public void ShowData()
@@ -25,19 +27,19 @@ namespace KlinikGigi.Controllers
             try
             {
                 // Get data from the model
-                DataTable data = model.GetRiwayatData();
+                DataTable data = model.GetLayananData();
 
                 // Clear the ListView before adding new data
 
-                view.lvwRiwayat.Items.Clear(); // ini yang saya maksud
+                view.lvwTindakan.Items.Clear(); // ini yang saya maksud
 
                 // Populate the ListView with data
                 foreach (DataRow row in data.Rows)
                 {
-                    ListViewItem item = new ListViewItem(row["pembayaran_id"].ToString());
-                    item.SubItems.Add(row["nama_pasien"].ToString());
+                    ListViewItem item = new ListViewItem(row["layanan_id"].ToString());
+                    item.SubItems.Add(row["nama_layanan"].ToString());
 
-                    if (decimal.TryParse(row["total_biaya"].ToString(), out decimal harga))
+                    if (decimal.TryParse(row["harga"].ToString(), out decimal harga))
                     {
                         item.SubItems.Add(harga.ToString("C")); // Format as currency
                     }
@@ -45,10 +47,8 @@ namespace KlinikGigi.Controllers
                     {
                         item.SubItems.Add("Invalid Harga");
                     }
-                    item.SubItems.Add(row["metode_pembayaran"].ToString());
-                    item.SubItems.Add(row["tanggal_pembayaran"].ToString());
 
-                    view.lvwRiwayat.Items.Add(item); // ini yang saya maksud
+                    view.lvwTindakan.Items.Add(item); // ini yang saya maksud
                 }
             }
             catch (Exception ex)
@@ -57,5 +57,6 @@ namespace KlinikGigi.Controllers
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+        
     }
 }
